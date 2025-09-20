@@ -40,12 +40,14 @@ sudo apt-get install build-essential clang bison flex \
   graphviz xdot pkg-config python3 libboost-system-dev \
   libboost-python-dev libboost-filesystem-dev zlib1g-dev 
 make config-gcc
-make
 git submodule update --init --recursive
+make
 sudo make install 
 yosys -V
 
 ```
+
+`
 ### 2. **Icarus Verilog**
 Steps to install Icarus Verilog:
 ```bash
