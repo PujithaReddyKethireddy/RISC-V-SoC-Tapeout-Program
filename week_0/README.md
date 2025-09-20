@@ -22,7 +22,6 @@ Focus: Setting up the Linux environment and installing essential open-source EDA
 | HDD       | 50GB          |
 | CPU       | 4 vCPU        |
 
-> Screenshot: `Screenshots/system_check.png`
 
 ---
 
@@ -46,7 +45,7 @@ sudo make install
 yosys -V
 
 ```
-
+> Screenshot: `YOSYS.png`
 `
 ### 2. **Icarus Verilog**
 Steps to install Icarus Verilog:
